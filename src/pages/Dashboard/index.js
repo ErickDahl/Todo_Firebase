@@ -66,7 +66,7 @@ const Dashboard = () => {
         { tasks_qtd - tasks_concluded_qtd === 0 ? (
           <ResumoText>Parabéns! Você concluiu todas as tarefas!</ResumoText>
         ) : (
-          <ResumoText>Existem {tasks_qtd - tasks_concluded_qtd} tarefas pendentes.</ResumoText>
+          <ResumoText>Existem {tasks_qtd - tasks_concluded_qtd} tarefas pendentes</ResumoText>
         )}
 
         <ResumoTextParagraph>
